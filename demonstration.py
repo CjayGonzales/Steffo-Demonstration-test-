@@ -17,6 +17,8 @@ known_face_names = ["Person 1", "Person 2"]
 # Load an unknown image
 unknown_image = face_recognition.load_image_file("unknown.jpg")
 
+# changes made
+
 # Find all the faces and face encodings in the unknown image
 unknown_face_locations = face_recognition.face_locations(unknown_image)
 unknown_face_encodings = face_recognition.face_encodings(unknown_image, unknown_face_locations)
